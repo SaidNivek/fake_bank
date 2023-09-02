@@ -6,16 +6,28 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "aboutUs",
+    title: "About Us",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "products",
+    title: "Products",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "vacuumCleaners",
+    title: "Vacuum Cleaners",
+  },
+  {
+    id: "repairs",
+    title: "Repairs",
+  },
+  {
+    id: "vacuumCleaners",
+    title: "Appliances",
+  },
+  {
+    id: "more",
+    title: "More",
   },
 ];
 
