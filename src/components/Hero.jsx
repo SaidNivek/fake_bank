@@ -1,6 +1,6 @@
-import React from "react"
 import styles from '../style'
 import { discount, robot } from '../assets'
+import GetStarted from './GetStarted'
 
 const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -20,6 +20,9 @@ const Hero = () => (
                     <br className="sm:block hidden" />
                     Payment Method
                 </h1>
+                <div className='ss:flex hidden md:mr-4 mr-0'>
+                    <GetStarted />
+                </div>
             </div>
 
         </div>
